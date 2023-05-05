@@ -16,7 +16,7 @@ seq = 0
 while notCaptured:
     flag, img = vid.read()
     if flag:
-        # All Processing Code Come here
+        # All Processing Code Come here Okay 
         img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
         faces = fd.detectMultiScale(
